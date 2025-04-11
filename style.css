@@ -129,7 +129,7 @@ body {
 }
 
 .PopupStyleRed {
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     width: 100%;
@@ -145,7 +145,7 @@ body {
 }
 
 .PopupStyle {
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     width: 100%;

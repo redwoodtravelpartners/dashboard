@@ -1,6 +1,7 @@
 const allowedCredentials = {
   users: [
     { email: 'ladyday9@gmail.com', TiD: '644097048B' },
+    { email: 'Ladyday9@gmail.com', TiD: '644097048B' },
     { email: 'Testo@gmail.com', TiD: '644097048B' },
   ],
 };

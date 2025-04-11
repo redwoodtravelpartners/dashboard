@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 15%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#EverythingContainer {
+    padding: 0 ;
+    height: fit-content;
+}
+
+.Header-section {
+    color: hsl(0, 0%, 90%);
+    background-color: #61a6c5;
+}
+
+.Header-section p {
+    font-size: 15px;
+}
+
+.header-max-width {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 14px;
+}
+
+#max-widthSection {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 8px 14px;
+}
+
+.ContainSec {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 8px 14px;
+    margin: 10px auto;
+}
+
+.titleUP {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.navSteps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    margin: 8px 0;
+}
+
+#AccomodationsiD {
+    font-weight: bold;
+}
+
+#LineHr {
+    background-color: hsl(0, 0%, 60%);
+    min-height: 1px;
+    min-width: 100%;
+}
+
+.ImgSection {
+    margin: 8px 0;
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 628px) {
+    .ImgSection {
+        flex-wrap: wrap;
+    }
+}
+
+#coverPic {
+    width: 16em;
+    height: 16em;
+}
+
+#RedMessage {
+    font-weight: bold;
+    color: hsl(0, 100%, 45%);
+}
+
+.TextUnderPic {
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+#BoldFestname {
+    font-weight: 800;
+}
+
+#StartOverLink {
+    font-weight: bold;
+}
+
+.footerSec {
+    line-height: 1.5;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #dae2e4;
+}
+
+.subFooter {
+    text-align: center;
+}
+
+.LinksColor {
+    text-decoration: none;
+    color: #00802b;
+}
+
+#RedWoodLink {
+    font-size: 14px;
+}

@@ -109,7 +109,18 @@ body {
     word-break: break-all;
 }
 
-#copyBTN, #copyBTN2 {
+#copyBTN {
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 2px 8px 3px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 90%);
+    cursor: pointer;
+}
+
+#copyBTN2 {
     max-width: fit-content;
     max-height: fit-content;
     padding: 2px 8px 3px;

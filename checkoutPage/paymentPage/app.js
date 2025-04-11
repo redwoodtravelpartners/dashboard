@@ -24,6 +24,30 @@ copyBtn.addEventListener('click', () => {
     });
 });
 
+// copy address 2 bank
+const copyText2 = document.getElementById('AddressText2');
+const copyBtn2 = document.getElementById('copyBTN2');
+
+copyBtn2.addEventListener('click', () => {
+    navigator.clipboard.writeText(copyText2.textContent)
+    .then(() => {
+        const copiedPopup2 = document.createElement('div');
+        copiedPopup2.textContent = 'Account no. Copied';
+        copiedPopup2.classList.add('showCopy');
+        Body.appendChild(copiedPopup2);
+        console.log(copiedPopup2);
+
+        setTimeout(() => {
+          Body.removeChild(copiedPopup2);
+        }, 3000);
+        
+        console.log('Text copied to clipboard');
+    })
+    .catch((error) => {
+      console.error('Error copying text:', error);
+    });
+});
+
 // Show Lists 1
 const LiBoard = document.querySelectorAll('.liss:not(#showList):not(#hideList)');
 const dropdown = document.getElementById('showList');
